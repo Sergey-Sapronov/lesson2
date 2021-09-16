@@ -1,7 +1,10 @@
-a=9
-b=1
 def func_name(a,b):
-	for i in range(6):
-		b=a**i
-	return b
+	i=1
+	if b<0:
+	    return 'Ошибка'
+	for c in range(b):
+		i=i*a
+	return i
+a=int(input())
+b=int(input())
 print(func_name(a,b))
