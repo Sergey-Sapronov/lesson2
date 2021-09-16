@@ -1,0 +1,7 @@
+a=9
+b=1
+def func_name(a,b):
+	for i in range(6):
+		b=a**i
+	return b
+print(func_name(a,b))
