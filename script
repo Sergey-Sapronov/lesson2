@@ -1,0 +1,4 @@
+import time 
+While True:
+    print("Сережа")
+    time.sleep(5)
